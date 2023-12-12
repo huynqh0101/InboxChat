@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="331.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="331.0" styleClass="custom-border-pane" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="29.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/icons8-back-48.png" />
+               </image>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="47.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Lovepik_com-401175186-avatar.png" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="48.0" prefWidth="8.0" />
+            <VBox prefHeight="48.0" prefWidth="98.0">
+               <children>
+                  <Label prefHeight="22.0" prefWidth="87.0" text=" Quang Huy">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="19.0" prefWidth="96.0" text="Online">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/icons8-dot-50.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="System Italic" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Pane prefHeight="48.0" prefWidth="74.0" />
+            <ImageView fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/icons8-phone-64.png" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="48.0" prefWidth="7.0" />
+            <ImageView fitHeight="33.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/icons8-video-call-100.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="331.0" styleClass="custom-border-pane" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="66.0" prefWidth="26.0" />
+            <ImageView fitHeight="32.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/icons8-image-64.png" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="62.0" prefWidth="5.0" />
+            <Pane prefHeight="66.0" prefWidth="6.0" />
+            <TextField fx:id="text1" prefHeight="40.0" prefWidth="196.0" promptText="  Your Message ..." style="-fx-background-radius: 50;" styleClass="text-text1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="28.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/icons8-communicate-64.png" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="66.0" prefWidth="4.0" />
+            <ImageView fitHeight="37.0" fitWidth="31.0" layoutX="256.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/icons8-mic-50.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <Pane prefHeight="393.0" prefWidth="331.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="415.0" fitWidth="331.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/abstract-textured-backgound.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="43.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Lovepik_com-401175186-avatar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="43.0" layoutY="32.0" prefHeight="28.0" prefWidth="58.0" styleClass="incoming-label" stylesheets="@../../../style.css" text="  Hello:)">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="164.0" layoutY="60.0" prefHeight="28.0" prefWidth="160.0" styleClass="incoming2-label" stylesheets="@../../../style.css" text="  Yah, Hello! What’s up?">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="43.0" fitWidth="43.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Lovepik_com-401175186-avatar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="43.0" layoutY="115.0" prefHeight="52.0" prefWidth="207.0" styleClass="incoming-label" stylesheets="@../../../style.css" text="  I’m looking for the bus. Can &#10;  you tell me how to get there?">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="164.0" layoutY="190.0" prefHeight="28.0" prefWidth="160.0" styleClass="incoming2-label" stylesheets="@../../../style.css" text=" No, sorry. I don’t know.">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="43.0" fitWidth="43.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Lovepik_com-401175186-avatar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="43.0" layoutY="245.0" prefHeight="75.0" prefWidth="207.0" styleClass="incoming-label" stylesheets="@../../../style.css" text="  I think I can take the bus stop&#10;  to the bus. Do you know &#10;  where the bus stop is?">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

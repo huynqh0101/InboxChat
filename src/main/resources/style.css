@@ -1,0 +1,23 @@
+.text-text1 {
+    -fx-font-style: italic;
+    -fx-padding: 5 0 5 0;
+    -fx-background-radius: 0 0 0 7;
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+    -fx-text-fill: #000000;
+}
+.custom-border-pane {
+    -fx-background-color: #f0efe6;
+    -fx-border-radius: 10;
+}
+.incoming-label{
+    -fx-background-color: #d67ed6;
+    -fx-background-radius: 0 20 20 20;
+    -fx-text-fill: #FFFFFF;
+}
+.incoming2-label{
+    -fx-background-color: #6870de;
+    -fx-background-radius: 20 0 20 20;
+    -fx-text-fill: #FFFFFF;
+}
+
